@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_marginTop="60dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="hello"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#1d1836"
+            android:textSize="12sp"
+            android:backgroundTint="#0077b5"
+
+             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="hello"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#1d1836"
+
+            android:textSize="12dp"
+            android:backgroundTint="#fec013"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="hello"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#1d1836"
+
+            android:textSize="12dp"
+            android:backgroundTint="#ff0000"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="hello"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#1d1836"
+            android:textSize="12dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="hello"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="12dp"
+            android:textColor="#1d1836"
+
+            android:backgroundTint="#4ec561"
+
+            />
+    </GridLayout>
+</LinearLayout>
