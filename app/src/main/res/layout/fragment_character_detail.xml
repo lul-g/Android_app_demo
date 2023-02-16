@@ -10,14 +10,14 @@
     >
 
     <androidx.cardview.widget.CardView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/char_img_cont"
         app:cardCornerRadius="30dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
         app:cardBackgroundColor="#F23E61"
 
         >
@@ -61,7 +61,7 @@
 
 
         android:textColor="#fff"
-        android:textSize="12sp"
+        android:textSize="15sp"
 
         tools:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim praesentium id nulla neque odit velit error reprehenderit nostrum officiis illum nemo, quae fugiat. Quis porro inventore quisquam!"
         />

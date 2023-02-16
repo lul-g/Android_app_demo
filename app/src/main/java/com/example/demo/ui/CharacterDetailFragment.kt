@@ -30,8 +30,8 @@ class CharacterDetailFragment : Fragment() {
             view.findViewById<TextView>(R.id.char_id).text = id
             view.findViewById<TextView>(R.id.char_name).text = name
             view.findViewById<TextView>(R.id.char_age).text = age.toString()
-//            view.findViewById<TextView>(R.id.char_description).text = description
-//            view.findViewById<TextView>(R.id.char_universe).text = universe
+            view.findViewById<TextView>(R.id.char_description).text = description
+            view.findViewById<TextView>(R.id.char_universe).text = universe
 
             Glide.with(this)
                 .load(img)
