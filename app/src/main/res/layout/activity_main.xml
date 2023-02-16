@@ -3,14 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/character_recycler_view"
+    <androidx.fragment.app.FragmentContainerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#0B111a"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+        android:id="@+id/fragment_container_view"
 
         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.CharacterDetailFragment"
+    android:background="#0a111e"
+
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/char_img_cont"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="#F23E61"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+            android:id="@+id/char_img"
+
+            tools:src="@drawable/god"
+            android:scaleType="centerCrop"
+        />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/char_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="01"
+        android:layout_marginEnd="20dp"
+        android:letterSpacing=".1"
+        android:textStyle="bold"
+        android:textColor="#6947ef"
+        android:textSize="36sp"
+        android:fontFamily="@font/num_font"
+    />
+
+    <TextView
+        android:id="@+id/char_description"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/char_img_cont"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+
+
+        android:textColor="#fff"
+        android:textSize="12sp"
+
+        tools:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero enim praesentium id nulla neque odit velit error reprehenderit nostrum officiis illum nemo, quae fugiat. Quis porro inventore quisquam!"
+        />
+    <TextView
+        android:id="@+id/char_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/char_description"
+        app:layout_constraintStart_toStartOf="@id/char_description"
+        android:layout_marginTop="20dp"
+
+
+        android:textColor="#6947ef"
+        android:textSize="20sp"
+        android:fontFamily="@font/txt_font"
+
+        tools:text="NAME: RICK SANCHEZ"
+    />
+    <TextView
+        android:id="@+id/char_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/char_name"
+        app:layout_constraintStart_toStartOf="@id/char_name"
+        android:layout_marginTop="20dp"
+
+
+        android:textColor="#F23E61"
+        android:textSize="20sp"
+        android:fontFamily="@font/txt_font"
+
+        tools:text="AGE: 50"
+    />
+    <TextView
+        android:id="@+id/char_universe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/char_age"
+        app:layout_constraintStart_toStartOf="@id/char_age"
+        android:layout_marginTop="20dp"
+
+        android:textColor="#6947ef"
+        android:textSize="20sp"
+        android:fontFamily="@font/txt_font"
+
+        tools:text="UNIVERSE: EARTH"
+    />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
